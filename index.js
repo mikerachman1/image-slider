@@ -20,6 +20,7 @@ const changeSlide = (moveTo) => {
   currentSlide = moveTo
 }
 
+// Event listners for nav buttons
 navNext.addEventListener("click", () => {
   changeSlide(currentSlide + 1)
 });
@@ -27,6 +28,7 @@ navPrev.addEventListener("click", () => {
    changeSlide(currentSlide -1)
 });
 
+// Event Listners for dots 
 document.querySelectorAll('.slider-dot').forEach((dot, dotIndex) => {
   dot.addEventListener('click', () => {
     if (currentSlide !== dotIndex) {
@@ -34,3 +36,6 @@ document.querySelectorAll('.slider-dot').forEach((dot, dotIndex) => {
     }
   })
 })
+
+// Timeout function to automatically slide pics
+setInterval(() => { changeSlide(currentSlide + 1) }, 5000)
