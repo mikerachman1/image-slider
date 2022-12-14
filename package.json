@@ -1,0 +1,19 @@
+{
+  "name": "@mikerachman1/image-slider",
+  "version": "1.0.0",
+  "description": "a reusable image slideshow with html css and javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikerachman1/image-slider.git"
+  },
+  "author": "mikerachman1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikerachman1/image-slider/issues"
+  },
+  "homepage": "https://github.com/mikerachman1/image-slider#readme"
+}
