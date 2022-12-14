@@ -37,5 +37,5 @@ document.querySelectorAll('.slider-dot').forEach((dot, dotIndex) => {
   })
 })
 
-// Timeout function to automatically slide pics
+// function to automatically slide pics
 setInterval(() => { changeSlide(currentSlide + 1) }, 5000)
